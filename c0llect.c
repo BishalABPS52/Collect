@@ -29,7 +29,7 @@ void drawBasket()
 void eraseBasket()
 {
     gotoxy(basketPosition,SCREEN_HEIGHT-1);
-    printf("     "); // Erase three characters for "||||"
+    printf("     "); // Erase three characters for "|||||"
 }
 
 void drawEgg(int x,int y)
